@@ -18,7 +18,8 @@ import java.util.List;
 public class BunnyNotiHelperResponseDto {
 
 	private Long seq;
-	private Long userSeq;
+
+	private UserResponseDto user;
 	private Long bunnyNotiSeq;
 	private Integer estimatePrice;
 

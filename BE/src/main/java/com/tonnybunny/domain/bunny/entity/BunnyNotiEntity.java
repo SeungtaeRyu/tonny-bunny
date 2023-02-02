@@ -40,7 +40,8 @@ public class BunnyNotiEntity extends CommonEntity {
 	private String endLangCode;
 	private String bunnySituCode;
 	private String bunnyStateCode;
-
+	
+	@Builder.Default
 	private String isDeleted = "F";
 
 	// 번역 공고 지원 헬퍼 리스트
@@ -59,7 +60,7 @@ public class BunnyNotiEntity extends CommonEntity {
 	private List<BunnyQuotationEntity> bunnyQuotationList = new ArrayList<>();
 
 
-	public void deleteBunnyNoti() {
+	public void delete() {
 		this.isDeleted = "T";
 	}
 

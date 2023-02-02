@@ -29,9 +29,17 @@ public class BunnyService {
 	private final BunnyNotiRepository bunnyNotiRepository;
 	private final BunnyNotiImageRepository bunnyNotiImageRepository;
 
+	// --------------------------------------- 번역 공고 ---------------------------------------
 
-	private BunnyNotiEntity bunnyNotiToEntity(BunnyNotiRequestDto bunnyNotiRequestDto) {
 
+	/**
+	 * 번역 공고 생성
+	 *
+	 * @param bunnyNotiRequestDto : 번역 공고 생성 폼
+	 * @return : 생성된 공고의 seq
+	 */
+	public Long createBunnyNoti(BunnyNotiRequestDto bunnyNotiRequestDto) {
+		// TODO : 로직
 		Optional<UserEntity> user = userRepository.findById(bunnyNotiRequestDto.getClientSeq());
 		BunnyNotiEntity bunnyNoti = BunnyNotiEntity.builder()
 			.user(user.get())
@@ -60,22 +68,6 @@ public class BunnyService {
 
 		}
 
-		return bunnyNoti;
-	}
-
-	// --------------------------------------- 번역 공고 ---------------------------------------
-
-
-	/**
-	 * 번역 공고 생성
-	 *
-	 * @param bunnyNotiRequestDto : 번역 공고 생성 폼
-	 * @return : 생성된 공고의 seq
-	 */
-	public Long createBunnyNoti(BunnyNotiRequestDto bunnyNotiRequestDto) {
-		// TODO : 로직
-		BunnyNotiEntity bunnyNoti = bunnyNotiToEntity(bunnyNotiRequestDto);
-
 		return bunnyNoti.getSeq();
 	}
 
@@ -89,7 +81,7 @@ public class BunnyService {
 	public Boolean deleteBunnyNoti(Long bunnyNotiSeq) {
 		// TODO : 로직
 		BunnyNotiEntity bunnyNoti = bunnyNotiRepository.findById(bunnyNotiSeq).orElseThrow(() -> new CustomException(ErrorCode.ERROR_NAME));
-		bunnyNoti.deleteBunnyNoti();
+		bunnyNoti.delete();
 		bunnyNotiRepository.save(bunnyNoti);
 		return true;
 	}
