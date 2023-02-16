@@ -286,8 +286,38 @@
                                                 </div>
                                             </div>
 
+<<<<<<< HEAD
                                             <!-- <div>{{ apply.unitPrice }}</div> -->
                                         </div>
+=======
+											<!-- <img :src="apply.helper.profileImagePath" /> -->
+											<!-- <div>{{ apply.helper.nickName }}</div> -->
+											<!-- <div>{{ apply.helper.helperInfo.oneLineIntroduction }}</div> -->
+										</div>
+										<div class="col-10 helperInfo">
+											<div class="d-flex flex-row">
+												<div class="fw-bold">
+													{{ apply.helper.nickName }}
+												</div>
+											</div>
+											<div>
+												{{ apply.helper.helperInfo.oneLineIntroduction }}
+											</div>
+											<div class="d-flex infoss justify-space-around">
+												<div>
+													&nbsp;<span class="fw-bold">평점</span>
+													{{ apply.helper.helperInfo.avgScore }}
+												</div>
+												<div>
+													&nbsp;<span class="fw-bold">리뷰</span>
+													{{ apply.helper.helperInfo.reviewCount }}
+												</div>
+												<div>
+													&nbsp;<span class="fw-bold">캐럿</span>
+													{{ apply.unitPrice }}
+												</div>
+											</div>
+>>>>>>> 69073dc7028a571340e76b324f6ac574bff918d8
 
                                         <div
                                             v-if="apply.helper.seq == userInfo.seq"
@@ -426,6 +456,7 @@
             </div>
         </div>
 
+<<<<<<< HEAD
         <alarm-modal
             v-show="modalName == 'delete'"
             type="danger"
@@ -443,6 +474,40 @@
                 삭제한 후에는 다시 되돌릴 수가 없습니다.
             </template>
         </alarm-modal>
+=======
+					<div v-if="yTonnyApplyList.length > 0">
+						<div
+							v-for="(apply, index) in yTonnyApplyList"
+							:key="index"
+							class="w-100 row">
+							<div class="d-flex flex-row align-items-center apply">
+								<div
+									class="col-2 d-flex flex-column align-items-center justify-content-center">
+									<img src="@/assets/noProfile.png" width="40" height="40" />
+								</div>
+								<div class="col-10 helperInfo">
+									<div class="d-flex flex-row">
+										<div class="fw-bold">{{ apply.helper.nickName }}</div>
+									</div>
+									<div style="color: var(--sub-color)">
+										{{ apply.helper.helperInfo.oneLineIntroduction }}
+									</div>
+									<div class="d-flex infoss justify-space-around">
+										<div>
+											&nbsp;<span class="fw-bold">평점</span>
+											{{ apply.helper.helperInfo.avgScore }}
+										</div>
+										<div>
+											&nbsp;<span class="fw-bold">리뷰</span>
+											{{ apply.helper.helperInfo.reviewCount }}
+										</div>
+										<div>
+											&nbsp;<span class="fw-bold">캐럿</span>
+											{{ apply.unitPrice }}
+										</div>
+									</div>
+								</div>
+>>>>>>> 69073dc7028a571340e76b324f6ac574bff918d8
 
         <alarm-modal
             v-show="modalName == 'goLiveModalByClient'"
@@ -669,8 +734,15 @@ export default {
                 yTonnySeq: this.yTonnySeq,
             });
 
+<<<<<<< HEAD
             await this.$store.dispatch("getYTonnyApplyListTotalCount", this.yTonnySeq);
         },
+=======
+			console.log("hihi", this.yTonnyApplyList);
+
+			await this.$store.dispatch("getYTonnyApplyListTotalCount", this.yTonnySeq);
+		},
+>>>>>>> 69073dc7028a571340e76b324f6ac574bff918d8
 
         toggleEditOpen() {
             this.isEditOpen = !this.isEditOpen;
