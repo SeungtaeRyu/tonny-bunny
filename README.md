@@ -23,7 +23,7 @@ SSAFY 8기 2학기 공통 프로젝트
             <ul>
                 <li>ERD 설계 및 구축</li>
                 <li>WebRTC 기반 오픈소스 Openvidu 서버 구현</li>
-                <li>Openvidu 클라이언트단 Javascript 코드를<br> Vue.js로 마이그레이션하여 이식</li>
+                <li>Openvidu 클라이언트단 Javascript 코드를 Vue.js로 마이그레이션하여 이식</li>
                 <li>번역 서비스 관련 BE/FE 로직 구현</li>
             </ul>
         </td>
