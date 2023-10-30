@@ -370,6 +370,19 @@ TonnyBunny는 서비스를 제공하는 통번역가 분들을 <span style="colo
 
 ### [**↗ 주요 서비스 화면 시나리오는 여기로! 🐰**](./_introduce/%F0%9F%A5%95TonnyBunny%E2%80%99s%20Scenario%F0%9F%A5%95%20015243f0992646c7b3efe3240d97ccc9.md)
 
+
+<br><br>
+
+## 🥕 아키텍처 구조
+
+![](./_introduce/architecture.png)
+
+<br>
+
+## 🥕 ER 다이어그램
+
+![](./_introduce/erd.png)
+
 <br><br>
 
 ## 🥕 기술 스택
@@ -418,17 +431,4 @@ TonnyBunny는 서비스를 제공하는 통번역가 분들을 <span style="colo
 -   `Notion`
 -   `Discord`
 -   `Mattermost`
-
-<br>
-
-## 🥕 아키텍처 구조
-
-![](./_introduce/architecture.png)
-
-<br>
-
-## 🥕 ER 다이어그램
-
-![](./_introduce/erd.png)
-
 
