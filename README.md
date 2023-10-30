@@ -5,6 +5,110 @@ SSAFY 8기 2학기 공통 프로젝트
 <div style="font-weight: bold; font-size: 1.2em;">2023.01.02 ~ 2023.02.17</div>
 </div>
 
+<br><br>
+
+## 🥕 팀원 소개
+
+<table>
+  <tbody>
+      <tr>
+        <td align="center">
+        <a href="https://github.com/SeungtaeRyu">
+            <img src="https://avatars.githubusercontent.com/u/81846487?v=4" width="100px;"/>
+            <br />
+            <sub>🐰 <b>류승태</b></sub>
+        </a>
+        </td>
+        <td>
+            <ul>
+                <li>ERD 설계 및 구축</li>
+                <li>WebRTC 기반 오픈소스 Openvidu 서버 구현</li>
+                <li>Openvidu 클라이언트단 코드를 마이그레이션하여 이식</li>
+                <li>번역 서비스 관련 BE/FE 로직 구현</li>
+            </ul>
+        </td>
+        <td align="center">
+        <a href="https://github.com/baebug">
+            <img src="https://avatars.githubusercontent.com/u/76019523?v=4" width="100px;"/>
+            <br />
+            <sub>👑 <b>배충현</b></sub>
+        </a>
+        </td>
+        <td>
+            <ul>
+                <li>즉시통역 매칭 서비스 구현</li>
+                <li>헬퍼 프로필 API 구현</li>
+                <li>CI/CD 구축</li>
+            </ul>
+        </td>
+        </tr>
+        <tr>
+      <td align="center">
+        <a href="https://github.com/yeomss">
+            <img src="https://avatars.githubusercontent.com/u/50233862?v=4" width="100px;"/>
+            <br />
+            <sub>🐰 <b>염정아</b></sub>
+        </a>
+        </td>
+        <td>
+            <ul>
+                <li>예약통역 API 구현</li>
+                <li>알림 API 구현</li>
+                <li>실시간 알림 구현</li>
+                <li>기본적인 디자인 및 프론트 구현</li>
+            </ul>
+        </td>
+        <td align="center">
+        <a href="https://github.com/heisje">
+            <img src="https://avatars.githubusercontent.com/u/109322450?v=4" width="100px;"/>
+            <br />
+            <sub>🐰 <b>김희제</b></sub>
+        </a>
+        </td>
+        <td>
+            <ul>
+                <li>커뮤니티 구현</li>
+                <li>마이페이지 구현</li>
+                <li>기본적인 디자인 및 프론트 구현</li>
+            </ul>
+        </td>
+        </tr>
+        <tr>
+        <td align="center">
+        <a href="https://github.com/Hello1Robot">
+            <img src="https://avatars.githubusercontent.com/u/109326426?v=4" width="100px;"/>
+            <br />
+            <sub>🐰 <b>최권민</b></sub>
+        </a>
+        </td>
+        <td>
+            <ul>
+                <li>회원가입 및 로그인 구현</li>
+                <li>JWT / SMS 인증 구현</li>
+                <li>마이페이지 관련 기능 구현</li>
+                <li>PPT 및 발표</li>
+            </ul>
+        </td>
+        <td align="center">
+        <a href="https://github.com/noonmap">
+            <img src="https://avatars.githubusercontent.com/u/36250213?v=4" width="100px;"/>
+            <br />
+            <sub>🐰 <b>정채원</b></sub>
+        </a>
+        </td>
+        <td>
+            <ul>
+                <li>실시간 채팅 기능 구현</li>
+                <li>히스토리 내역 API 구현</li>
+                <li>포인트 관리 API 구현</li>
+                <li>CI/CD 구축</li>
+            </ul>
+        </td>
+        </tr>
+    </tr>
+    </tbody>
+</table>
+
 ## 🥕 서비스 소개
 
 코로나 19의 영향력이 점차 감소하면서 해외 여행의 수요가 늘어나고 있습니다. 언어가 다른 장소에서 급한 용건이나 중요한 업무들을 수행하고 싶지만, AI 통번역 서비스는 아직 오역 사례가 종종 나와서 의사가 제대로 전달되고 있는지 우려가 되곤 합니다.
@@ -1082,115 +1186,3 @@ TonnyBunny는 서비스를 제공하는 통번역가 분들을 <span style="colo
 </details>
 <br>
 
-## 🥕 팀원 소개
-
-<table>
-  <tbody>
-    <tr>
-        <td align="center">
-        <a href="https://github.com/baebug">
-            <img src="https://avatars.githubusercontent.com/u/76019523?v=4" width="100px;"/>
-            <br />
-            <sub>👑 <b>배충현</b></sub>
-        </a>
-        </td>
-        <td>
-            <ul>
-                <li>기획 문서 작성</li>
-                <li>즉시통역 매칭 서비스 구현</li>
-                <li>헬퍼 프로필 API 구현</li>
-                <li>CI/CD 구축</li>
-            </ul>
-        </td>
-        </tr>
-        <tr>
-      <td align="center">
-        <a href="https://github.com/yeomss">
-            <img src="https://avatars.githubusercontent.com/u/50233862?v=4" width="100px;"/>
-            <br />
-            <sub>🐰 <b>염정아</b></sub>
-        </a>
-        </td>
-        <td>
-            <ul>
-                <li>기획 문서 작성</li>
-                <li>예약통역 API 구현</li>
-                <li>알림 API 구현</li>
-                <li>실시간 알림 구현</li>
-                <li>기본적인 디자인 및 프론트 구현</li>
-            </ul>
-        </td>
-        </tr>
-        <tr>
-        <td align="center">
-        <a href="https://github.com/heisje">
-            <img src="https://avatars.githubusercontent.com/u/109322450?v=4" width="100px;"/>
-            <br />
-            <sub>🐰 <b>김희제</b></sub>
-        </a>
-        </td>
-        <td>
-            <ul>
-                <li>기획 문서 작성</li>
-                <li>커뮤니티 구현</li>
-                <li>마이페이지 구현</li>
-                <li>기본적인 디자인 및 프론트 구현</li>
-            </ul>
-        </td>
-        </tr>
-        <tr>
-        <td align="center">
-        <a href="https://github.com/SeungtaeRyu">
-            <img src="https://avatars.githubusercontent.com/u/81846487?v=4" width="100px;"/>
-            <br />
-            <sub>🐰 <b>류승태</b></sub>
-        </a>
-        </td>
-        <td>
-            <ul>
-                <li>기획 문서 작성</li>
-                <li>ERD 설계 및 구축</li>
-                <li>webRTC 기반 화상회의 구현</li>
-                <li>번역 서비스 구현</li>
-            </ul>
-        </td>
-        </tr>
-        <tr>
-        <td align="center">
-        <a href="https://github.com/Hello1Robot">
-            <img src="https://avatars.githubusercontent.com/u/109326426?v=4" width="100px;"/>
-            <br />
-            <sub>🐰 <b>최권민</b></sub>
-        </a>
-        </td>
-        <td>
-            <ul>
-                <li>기획 문서 작성</li>
-                <li>회원가입 및 로그인 구현</li>
-                <li>JWT / SMS 인증 구현</li>
-                <li>마이페이지 관련 기능 구현</li>
-                <li>PPT 및 발표</li>
-            </ul>
-        </td>
-        </tr>
-        <tr>
-        <td align="center">
-        <a href="https://github.com/noonmap">
-            <img src="https://avatars.githubusercontent.com/u/36250213?v=4" width="100px;"/>
-            <br />
-            <sub>🐰 <b>정채원</b></sub>
-        </a>
-        </td>
-        <td>
-            <ul>
-                <li>기획 문서 작성</li>
-                <li>실시간 채팅 기능 구현</li>
-                <li>히스토리 내역 API 구현</li>
-                <li>포인트 관리 API 구현</li>
-                <li>CI/CD 구축</li>
-            </ul>
-        </td>
-        </tr>
-    </tr>
-    </tbody>
-</table>
